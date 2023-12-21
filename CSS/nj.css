@@ -1,0 +1,110 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  header h1{
+    position: relative;
+    top: 10px;
+  }
+  
+  main {
+    position: absolute;
+    left: 430px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+    
+  
+  .manga-header {
+      width: 500px;
+      background-color: #ca12ac;
+      border-radius: 100px;
+      margin-left: 420px;
+      margin-top: 20px;
+      height: 50px;
+      color: white;
+     font-style: initial;
+     font-size: 15px;
+  }
+    
+  main input {
+      position: relative;
+      width: 400px;
+      padding: 12px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-left: 0px;
+      border-radius: 20px;
+      border: 2px solid #000000;
+      outline: none;
+      height: 15px;
+      font-size: 16px;
+  }
+    
+  .container-manga {
+    background-color: rgba(0, 0, 0, 0,4);
+    text-align: center;
+    position: center;
+    top: 20%;
+    left: 50%;
+  }
+  
+  main input:focus {
+      border-color: #e5ff00;
+  }
+      
+  .manga-card {
+    width: 40%; 
+    margin: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px double #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(6, 207, 66, 0.336);
+    box-shadow: 0px 0px 10px rgba(102, 59, 59, 0.3);
+  }
+  
+  .manga-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background: none;
+  }
+  .btn-img{
+    position: absolute;
+    top: 15px;
+    width: 35px;
+  }
+  
+  
+  #results {
+    position: absolute;
+    top: 135px;
+    left: 220px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+    
